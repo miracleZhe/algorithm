@@ -90,7 +90,7 @@
                     <forkMode>once</forkMode>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
                     <suiteXmlFiles>
-                        <suiteXmlfile>res/testngAPP.xml</suiteXmlfile>
+                        <suiteXmlfile>res/${xmlFileName}</suiteXmlfile>
                     </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
