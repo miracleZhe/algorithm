@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="优测教育" parallel="false">
-    <parameter name="filepath"  value="D:\\testcase.xlsx"/>
+    <parameter name="filepath"  value="/data/interface/data/testcase.xlsx"/>
 
     <test name="接口自动化测试">
         <classes>
