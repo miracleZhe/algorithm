@@ -22,7 +22,7 @@ public class FindRepeatCharNumber {
 
         //方法2
         Map<Character,Integer>map = new HashMap<Character,Integer>();
-        /*
+
         for(int i=0;i<s.length();i++){
             if(map.containsKey(s.charAt(i))){
             map.put(s.charAt(i),map.get(s.charAt(i))+1);
@@ -35,7 +35,7 @@ public class FindRepeatCharNumber {
                 System.out.println(entry.getValue());
             }
         }
-        */
+
         //方法3
         for(int i=0;i<s.length();i++){
             char ch=s.charAt(i);
